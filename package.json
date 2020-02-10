@@ -1,0 +1,23 @@
+{
+  "name": "babel-macro-del-new",
+  "version": "0.1.0",
+  "description": "Delete the new keyword of js",
+  "main": "./dist/del-new.macro.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir dist"
+  },
+  "keywords": [
+    "Ajanuw",
+    "babel-plugin-macros",
+    "babel-macro-del-new"
+  ],
+  "author": "Ajanuw",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "babel-plugin-macros": "^2.8.0"
+  }
+}
